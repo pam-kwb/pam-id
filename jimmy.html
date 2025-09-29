@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ID Card Jimmy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start; /* mulai dari atas, bukan tengah */
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 90%;         /* ambil 90% layar hp */
+      max-width: 500px;   /* batas maksimal di laptop */
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #333;
+    }
+    img {
+      width: 100%;        /* penuh dalam card */
+      height: auto;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+    .status {
+      margin-top: 15px;
+      font-weight: bold;
+      color: green;
+      font-size: 1.1em;
+    }
+    .links {
+      margin-top: 20px;
+    }
+    .btn {
+      display: inline-block;
+      margin: 8px 5px;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+    .instagram { background: #e4405f; }
+    .whatsapp { background: #25D366; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>✅ Anggota Aktif PAM</h2>
+    <img src="images/jimmy.jpg" alt="ID Card Jimmy">
+    <div class="status">Nama: Jimmy</div>
+    <div class="links">
+      <a href="https://www.instagram.com/pam_kwb" target="_blank" class="btn instagram">Instagram</a>
+      <a href="https://wa.me/6285854948690?text=Halo%20kak%20kikik%2C%20apakah%20Jimmy%20masih%20aktif%3F" target="_blank" class="btn whatsapp">Chat WhatsApp</a>
+    </div>
+  </div>
+</body>
+</html>
